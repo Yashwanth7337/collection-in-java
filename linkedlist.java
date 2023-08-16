@@ -4,7 +4,7 @@ import java.util.*;
 public class linkedlist {
     
  
-public static void main(String args[]){  
+ static public void main(String args[]){  
 LinkedList<String> al=new LinkedList<String>();  
 al.add("Ravi");  
 al.add("Vijay");  
@@ -12,6 +12,7 @@ al.add("Ravi");
 al.add("Ajay"); 
 al.add(0,"yash");
 al.remove(0);
+//Collection.sort(al);
 Iterator<String> itr=al.iterator();  
 while(itr.hasNext()){  
 System.out.println(itr.next());  
