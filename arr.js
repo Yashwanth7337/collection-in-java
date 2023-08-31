@@ -4,5 +4,5 @@ for (let i=0;i<arr.length;i++)
     setTimeout(function(){
         console.log(arr[i])
 
-    }, 1000);
+    }, 5000);
 }

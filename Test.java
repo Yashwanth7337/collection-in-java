@@ -23,6 +23,9 @@ public class Test
     public static void main (String args[])  
     {  
         Employee e = new Employee(22, "yash", "Bangalore", 90000);  
-        System.out.println("Name: "+e.name+" Salary: "+e.salary+" Age: "+e.age+" Address: "+e.address);  
+        Employee e1 = new Employee(22, "yash", "Bangalore", 90000);  
+
+        System.out.println("Name: "+e.name+" Salary: "+e.salary+" Age: "+e.age+" Address: "+e.address); 
+         System.out.println("Name: "+e1.name+" Salary: "+e1.salary+" Age: "+e1.age+" Address: "+e1.address);  
     }  
 }  
